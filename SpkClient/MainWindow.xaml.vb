@@ -7,7 +7,7 @@ Class MainWindow
     Private cryptoService
 
     Public Sub New()
-        Dim assembly = Reflection.Assembly.LoadFile(Path.GetFullPath("SpkCOM.dll"))
+        Reflection.Assembly.LoadFile(Path.GetFullPath("SpkCOM.dll"))
         Dim comType As Type = Type.GetTypeFromProgID("SpkCOM.SpkCryptoService")
         cryptoService = Activator.CreateInstance(comType)
     End Sub
