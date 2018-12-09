@@ -16,7 +16,7 @@
         <Label x:Name="KeyLabel1" Content="Key:&#xA;" HorizontalAlignment="Left" Margin="240,179,0,0" VerticalAlignment="Top" Height="26"/>
         <TextBox x:Name="DecryptKey" HorizontalAlignment="Left" Height="23" Margin="277,179,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60"/>
         <Button x:Name="DecryptButton" Content="Decrypt&#xA;" HorizontalAlignment="Left" Margin="240,210,0,0" VerticalAlignment="Top" Width="97" Height="27" Controls:ControlsHelper.ContentCharacterCasing="Normal"/>
-        <Label x:Name="DecryptedLabel" Content="Crypted&#xA;" HorizontalAlignment="Left" Margin="10,290,0,0" VerticalAlignment="Top" Height="29"/>
+        <Label x:Name="DecryptedLabel" Content="Decrypted&#xA;" HorizontalAlignment="Left" Margin="10,290,0,0" VerticalAlignment="Top" Height="29"/>
         <TextBox x:Name="DecryptedOutput" HorizontalAlignment="Left" Height="100" Margin="10,324,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="225"/>
     </Grid>
 </Controls:MetroWindow>
