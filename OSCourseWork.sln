@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpkCOM", "SpkCOM\SpkCOM.csproj", "{C8DDB08C-8867-4148-9C61-6DDA9D15A8F4}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SpkClient", "SpkClient\SpkClient.vbproj", "{AF16F80F-245A-4708-AED5-0EF8542301B3}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SpkClient", "SpkClient\SpkClient.vbproj", "{BDE926A1-8C4F-489A-838F-9116B4CA8F29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{C8DDB08C-8867-4148-9C61-6DDA9D15A8F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8DDB08C-8867-4148-9C61-6DDA9D15A8F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8DDB08C-8867-4148-9C61-6DDA9D15A8F4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AF16F80F-245A-4708-AED5-0EF8542301B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AF16F80F-245A-4708-AED5-0EF8542301B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AF16F80F-245A-4708-AED5-0EF8542301B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AF16F80F-245A-4708-AED5-0EF8542301B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDE926A1-8C4F-489A-838F-9116B4CA8F29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDE926A1-8C4F-489A-838F-9116B4CA8F29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDE926A1-8C4F-489A-838F-9116B4CA8F29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDE926A1-8C4F-489A-838F-9116B4CA8F29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

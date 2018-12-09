@@ -5,55 +5,55 @@ Imports System.Globalization
 Imports System.Resources
 Imports System.Windows
 
-' Общие сведения об этой сборке предоставляются следующим набором
-' атрибутов. Отредактируйте значения этих атрибутов, чтобы изменить
-' общие сведения об этой сборке.
+' General Information about an assembly is controlled through the following 
+' set of attributes. Change these attribute values to modify the information
+' associated with an assembly.
 
-' Проверьте значения атрибутов сборки
+' Review the values of the assembly attributes
 
 <Assembly: AssemblyTitle("SpkClient")>
 <Assembly: AssemblyDescription("")>
-<Assembly: AssemblyCompany("Microsoft")>
+<Assembly: AssemblyCompany("")>
 <Assembly: AssemblyProduct("SpkClient")>
-<Assembly: AssemblyCopyright("Copyright © Microsoft 2018")>
+<Assembly: AssemblyCopyright("Copyright ©  2014")>
 <Assembly: AssemblyTrademark("")>
 <Assembly: ComVisible(false)>
 
-'Чтобы начать создание локализуемых приложений, задайте
-'<UICulture>ТребуемоеЗначение</UICulture> в файле .vbproj
-'в <PropertyGroup>. Например, при использовании английского (США)
-'в исходных файлах установите значение <UICulture> равным "en-US".  Затем снимите комментарий
-'с атрибута NeutralResourceLanguage (ниже).  Замените "en-US" в расположенной ниже
-'строке значением, соответствующим параметру UICulture в файле проекта.
+'In order to begin building localizable applications, set 
+'<UICulture>CultureYouAreCodingWith</UICulture> in your .vbproj file
+'inside a <PropertyGroup>.  For example, if you are using US english 
+'in your source files, set the <UICulture> to "en-US".  Then uncomment the
+'NeutralResourceLanguage attribute below.  Update the "en-US" in the line
+'below to match the UICulture setting in the project file.
 
-'<Assembly: NeutralResourcesLanguage("en-US", UltimateResourceFallbackLocation.Satellite)>
+'<Assembly: NeutralResourcesLanguage("en-US", UltimateResourceFallbackLocation.Satellite)> 
 
 
-'Атрибут ThemeInfo указывает расположение словарей ресурсов для конкретной темы и словарей общих ресурсов.
-'1-й параметр: расположение словарей ресурсов для конкретной темы
-'(используется, если ресурс не найден на странице,
-' или в словарях ресурсов приложения)
+'The ThemeInfo attribute describes where any theme specific and generic resource dictionaries can be found.
+'1st parameter: where theme specific resource dictionaries are located
+'(used if a resource is not found in the page, 
+' or application resource dictionaries)
 
-'2-й параметр: расположение словаря общих ресурсов
-'(используется, если ресурс не найден на странице,
-'в приложении и в словарях ресурсов для конкретной темы)
+'2nd parameter: where the generic resource dictionary is located
+'(used if a resource is not found in the page, 
+'app, and any theme specific resource dictionaries)
 <Assembly: ThemeInfo(ResourceDictionaryLocation.None, ResourceDictionaryLocation.SourceAssembly)>
 
 
 
-'Следующий GUID служит для идентификации библиотеки типов, если этот проект будет видимым для COM
-<Assembly: Guid("95bad505-0d6d-413d-be61-47d1c1e99317")>
+'The following GUID is for the ID of the typelib if this project is exposed to COM
+<Assembly: Guid("8fc5eb3e-2fe3-4040-bfe6-54a7b41c6f60")>
 
-' Сведения о версии сборки состоят из следующих четырех значений:
+' Version information for an assembly consists of the following four values:
 '
-'      Основной номер версии
-'      Дополнительный номер версии
-'   Номер сборки
-'      Редакция
+'      Major Version
+'      Minor Version 
+'      Build Number
+'      Revision
 '
-' Можно задать все значения или принять номер сборки и номер редакции по умолчанию.
-' используя "*", как показано ниже:
-' <Assembly: AssemblyVersion("1.0.*")>
+' You can specify all the values or you can default the Build and Revision Numbers 
+' by using the '*' as shown below:
+' <Assembly: AssemblyVersion("1.0.*")> 
 
 <Assembly: AssemblyVersion("1.0.0.0")>
 <Assembly: AssemblyFileVersion("1.0.0.0")>
