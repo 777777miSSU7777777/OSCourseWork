@@ -3,9 +3,20 @@
                       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                       xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
                       Title="MainWindow"
-                      Height="350"
-                      Width="525">
+                      Height="475"
+                      Width="350">
     <Grid>
-
+        <TextBox x:Name="SourceInput" HorizontalAlignment="Left" Height="100" Margin="10,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="225"/>
+        <Label x:Name="SourceLabel" Content="Source&#xD;&#xA;" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="25"/>
+        <Button x:Name="EncryptButton" Content="Encrypt&#xD;&#xA;&#xD;&#xA;" HorizontalAlignment="Left" Margin="240,71,0,0" VerticalAlignment="Top" Width="92" Height="27" Controls:ControlsHelper.ContentCharacterCasing="Normal"/>
+        <Label x:Name="CryptedLabel" Content="Crypted&#xD;&#xA;" HorizontalAlignment="Left" Margin="10,145,0,0" VerticalAlignment="Top" Height="29"/>
+        <Label x:Name="KeyLabel" Content="Key:&#xD;&#xA;" HorizontalAlignment="Left" Margin="240,40,0,0" VerticalAlignment="Top" Height="26"/>
+        <TextBox x:Name="EncryptKey" HorizontalAlignment="Left" Height="23" Margin="272,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60"/>
+        <TextBox x:Name="EncryptedInput" HorizontalAlignment="Left" Height="100" Margin="10,179,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="225"/>
+        <Label x:Name="KeyLabel1" Content="Key:&#xA;" HorizontalAlignment="Left" Margin="240,179,0,0" VerticalAlignment="Top" Height="26"/>
+        <TextBox x:Name="DecryptKey" HorizontalAlignment="Left" Height="23" Margin="277,179,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60"/>
+        <Button x:Name="DecryptButton" Content="Decrypt&#xA;" HorizontalAlignment="Left" Margin="240,210,0,0" VerticalAlignment="Top" Width="97" Height="27" Controls:ControlsHelper.ContentCharacterCasing="Normal"/>
+        <Label x:Name="DecryptedLabel" Content="Crypted&#xA;" HorizontalAlignment="Left" Margin="10,290,0,0" VerticalAlignment="Top" Height="29"/>
+        <TextBox x:Name="DecryptedOutput" HorizontalAlignment="Left" Height="100" Margin="10,324,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="225"/>
     </Grid>
 </Controls:MetroWindow>
