@@ -4,17 +4,19 @@ Imports System.IO
 Class MainWindow
     Inherits MetroWindow
 
-    Private Sub EncryptButton_Click(sender As Object, e As RoutedEventArgs) Handles EncryptButton.Click
+    Private cryptoService
+
+    Public Sub New()
         Dim assembly = Reflection.Assembly.LoadFile(Path.GetFullPath("SpkCOM.dll"))
         Dim comType As Type = Type.GetTypeFromProgID("SpkCOM.SpkCryptoService")
-        Dim cryptoService = Activator.CreateInstance(comType)
+        cryptoService = Activator.CreateInstance(comType)
+    End Sub
+
+    Private Sub EncryptButton_Click(sender As Object, e As RoutedEventArgs) Handles EncryptButton.Click
         EncryptedInput.Text = cryptoService.Encrypt(SourceInput.Text, EncryptKey.Text)
     End Sub
 
     Private Sub DecryptButton_Click(sender As Object, e As RoutedEventArgs) Handles DecryptButton.Click
-        Dim assembly = Reflection.Assembly.LoadFile(Path.GetFullPath("SpkCOM.dll"))
-        Dim comType As Type = Type.GetTypeFromProgID("SpkCOM.SpkCryptoService")
-        Dim cryptoService = Activator.CreateInstance(comType)
         DecryptedOutput.Text = cryptoService.Decrypt(EncryptedInput.Text, DecryptKey.Text)
     End Sub
 
