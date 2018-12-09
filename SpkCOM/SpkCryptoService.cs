@@ -14,8 +14,9 @@ namespace SpkCOM
     {
         private int[] ParseKey(string _key)
         {
-            int[] key = new int[_key.Length];
             string[] keyParts = _key.Split(' ');
+
+            int[] key = new int[keyParts.Length];
 
             for (int i = 0; i < key.Length; i++)
             {
